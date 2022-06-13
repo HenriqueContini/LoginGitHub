@@ -1,16 +1,18 @@
 * {
+    border: 0;
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
 :root {
-    --white: #ffffff;
+    --blue: #040d21;
     --gray-light: #8193b2;
     --green: #2ea44f;
-    --blue: #040d21;
     --purple: #3A1C42;
-    --font: 'Roboto', sans-serif;
+    --white: #ffffff;
+
+
+    --font: 'Montserrat', sans-serif;;
 }
 
 body {
@@ -20,5 +22,5 @@ body {
 }
 
 .container {
-    padding: 20px 30px;
+    padding: 30px 40px;
 }
