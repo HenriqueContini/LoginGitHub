@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --white: #ffffff;
+    --gray-light: #8193b2;
+    --green: #2ea44f;
+    --blue: #040d21;
+    --purple: #3A1C42;
+    --font: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(140deg, var(--blue), var(--purple));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 50px 100px;
+}
