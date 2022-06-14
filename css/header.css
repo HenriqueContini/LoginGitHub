@@ -40,3 +40,17 @@
     border-radius: 5px;
     padding: 4px 8px;
 }
+
+@media screen and (min-width: 1440px) {
+    .header__menu {
+        display: flex;
+    }
+
+    .header__logo {
+        width: 42px;
+    }
+
+    .header__menu__item a, .header__login__link {
+        font-size: 16px;
+    }
+}
